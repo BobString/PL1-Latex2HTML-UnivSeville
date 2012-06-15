@@ -1,0 +1,64 @@
+\documentclass[12pt,spanich]{article}
+\usepackage[spanish,activeacute]{babel}
+\usepackage[latin1]{inputenc}
+\oddsidemargin 6in
+\textwidth 6.75in
+\topmargin 0in
+\textheight 8.5in
+\parindent 0em
+\parskip 1ex
+\begin{document} 
+
+
+\begin{center}
+{\bf SISTEMA OPERATIVO ULTRIX\\ }                                  
+\end{center}
+
+\section{Generalidades}
+
+\begin{itemize} 
+                       \item multiusuario
+                       \item multiproceso
+\end{itemize}
+
+\subsection{Comandos para manejo de Archivos}
+
+  {\bf Generalidades :}\\  \\ 
+Los  siguientes  comandos pueden ser utilizados  tanto
+con archivos en el directorio actual, como con
+archivos en otros directorios. Los archivos a distancia pueden ser `alcanzados` dando su
+`path` (direccion) en el sistema; las direcciones se especifican
+de la forma :\\                                                        
+\begin{center}
+ {\bf /usr/user/usuarios/juperez}\\ 
+\end{center}
+Es la direccion  de  Juanito  Perez,
+este usuario tiene definido su path en el caracter %\verb'~', luego  si  crea
+un directorio (ver mas adelante) , y este se  llama XX ,  entonces  la
+direccion de los archivos que quiera accesar dentro de este sera:\\ 
+
+\includegraphics{./logo_pinguino.jpg}
+
+\begin{tabular}
+    Adams & 0.3 & 1,3 \\
+    Merry & T & F  \\
+\end{tabular}
+
+\begin{enumerate}
+  \item {\bf prt} aa -f xxxx : comando que permite imprimir el archivo a en el 
+formato xxxx (doc6, doc8, ofi8, etc).                           
+
+  \item {\bf man}  xxxx      : help del sistema que permite obtener informacion del
+                   topico xxxx.                                                 
+
+  \item {\bf apropos} xxxx   : permite  obtener un  listado de topicos relacionados
+                   con el string dado xxxx.
+
+  \item {\bf vi} aa          : permite  editar el archivo aa si este existe, o  bien,
+                   crearlo si no es asi.
+
+  \item {\bf mail} user verb'<' aa : permite enviar un mail, almacenado previamente en el
+                   archivo aa, a el usuario indicado por user que  esta
+                   en el mismo computador (nodo) nuestro.
+\end{enumerate}
+\end{document}

@@ -1,0 +1,37 @@
+// $ANTLR : Analex.g -> AnalexTokenTypes.txt$
+Analex    // output token vocab name
+DOC_LATEX=4
+TXT=5
+CORCH=6
+LLAV=7
+TUPLA=8
+BARRA=9
+BEGIN="begin"=10
+LLAVEABR=11
+END="end"=12
+IDENT=13
+DOCUMENT="document"=14
+CENTER="center"=15
+ITEMIZE="itemize"=16
+ENUMERATE="enumerate"=17
+TABULAR="tabular"=18
+LLAVECERR=19
+SECTION="section"=20
+SUBSECTION="subsection"=21
+SUBSUBSECTION="subsubsection"=22
+GRAPHICS="includegraphics"=23
+AS=24
+LINEA_LATEX=25
+CORCHAB=26
+CORCHCERR=27
+NUMERO=28
+SEPARADOR=29
+ITEM="item"=30
+BF="bf"=31
+BLANCO=32
+NUEVA_LINEA=33
+LETRA=34
+CHARACTER=35
+COMMENT=36
+DIGITO=37
+EQ=38
